@@ -1,0 +1,17 @@
+create a file name called Procfile and add this line "web: python file_name.py"
+
+make a requirements.txt file with package names (name is from pip freeze command)
+
+commit everything using git:
+	git init
+	git add *
+	git commit -am "message"
+
+do heroku login in cmd
+login through browser
+
+do heroku git:remote -a <app_name>
+
+do git push heroku master
+
+checking logs: heroku logs -a <app-name>
